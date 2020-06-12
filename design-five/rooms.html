@@ -3,17 +3,40 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Rooms | Triptonhotels</title>
     <meta http-equiv="X-UA-Compatible" content="IE=7">
     <link href='https://fonts.googleapis.com/css?family=Playfair Display' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="./assets/css/headerfooter.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/rooms.css">
     
 
 </head>
 
-<body>    
+<body>   
+    <nav>
+        <div class="nav-main">
+            <div>
+                <div class="hotel-name"><a href="index.html">Tiptonhotels</a></div>
+            </div>
+            <div class="nav-wrapper">
+                <div id="menu" onclick="toggleMe(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+                <div>
+                    <ul class="nav-ul">
+                        <li><a href="#"> Rooms</a></li>
+                        <li><a href="facilities.html">Facilities</a></li>
+                        <li><a href="contact-us.html"> Contact us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
     <section class="presidential-suite">
         <div class="page-topic">Rooms</div>
         <div class="presidential-suite-overview">
@@ -77,5 +100,43 @@
             </div>
         </div>
     </section>
+
+    <footer>
+        <div>
+            <div class="footer-title-1">
+                Triptonhotels
+            </div>
+            <div>
+                <div>&copy; 2020 Triptonhotels. All rights reserved</div>
+                <div>
+                    <span class="icon icon-instagram"></span>
+                    <span class="icon icon-twitter"></span>
+                    <span class="icon icon-facebook"></span>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="footer-title-2">
+                Company
+            </div>
+            <div>
+                <div>About</div>
+                <div>Terms and Conditions</div>
+                <div>Privacy Policy</div>
+            </div>
+        </div>
+        <div>
+            <div class="footer-title-3">
+                Contact
+            </div>
+            <div>
+                <div>truv@gmail.com</div>
+                <div>+2348039074929</div>
+                <div>Lagos, Nigeria</div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="./assets/js/toggle.js"></script>
 </body>
 </html>

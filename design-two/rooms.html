@@ -3,32 +3,39 @@
 
 <head>
   <meta charset="UTF-8">
+  <!-- Mobile Specific Meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <!--Main css file-->
   <link rel="stylesheet" href="./assets/css/main.css">
+  <link rel="stylesheet" href="./assets/css/header.css">
   <!--Owl carousel files-->
   <link rel="stylesheet" type="text/css" href="./assets/css/owl.theme.default.css">
   <link rel="stylesheet" type="text/css" href="./assets/css/owl.carousel.css">
-  <!--Font awesome cdn-->
-  <script src="https://use.fontawesome.com/c40733cf62.js"></script>
+  <!--Font awesome icons-->
+  <link rel="stylesheet" href="./assets/css/all.css">
+  <!-- <script src="https://use.fontawesome.com/c40733cf62.js"></script> -->
 
   <title>Rooms | Furen Hotels</title>
 </head>
+
 <body>
   <!--Header section-->
-  <header class="header_main">
-    <div class="header_logo">
-      <a href="index.html"><img src="./assets/img/furen.svg" alt="Company logo"></a>
-    </div>
-    <nav class="header_navigation">
-      <ul class="header_nav-area">
-        <li class="header_nav-area item"><a href="facilities.html">Offers</a></li>
-        <li class="header_nav-area item"><a href="rooms.html">Rooms</a></li>
-        <li class="header_nav-area item"><a href="index.html#dining">Dinning</a></li>
-        <li class="header_nav-area item"><a href="index.html#conferences">Conferences</a></li>
-        <li class="header_nav-area item"><a href="contact.html">Contact</a></li>
+  <header>
+    <nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fa fa-bars"></i>
+      </label>
+      <label class="logo"><a href="index.html"><img src="./assets/img/furen.svg"></a></label>
+      <ul>
+        <li><a href="facilities.html">Offers</a></li>
+        <li><a href="rooms.html">Rooms</a></li>
+        <li><a href="index.html#dining">Dining</a></li>
+        <li><a href="index.html#conference">Conference</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <button class="headbutton">Book now</button>
       </ul>
-      <button type="submit" class="btn">book now</button>
     </nav>
   </header>
   <!--Header ends-->
@@ -43,10 +50,9 @@
     </div>
   </section>
   <!--Rooms & rate section-->
-  <!--the other nine images accordingly-->
   <div class="rates-column">
     <div class="rates-row">
-      <img class="rectangles" src="./assets/img/images/RectangleCopy11.png" />
+        <img class="rectangles" src="./assets/img/images/RectangleCopy11.png" />
       <img class="rectangles" src="./assets/img/images/RectangleCopy13.png" />
       <img class="rectangles" src="./assets/img/images/RectangleCopy15.png" />
     </div>
@@ -61,8 +67,8 @@
       <img class="rectangles" src="./assets/img/images/RectangleCopy25.png" />
     </div>
   </div>
+
   <!--Rooms Reviews and Featured in-->
-  <!--Review starts-->
   <div class="reviews ">
     <div class="reviews-header">
       <h1>Reviews</h1>
@@ -239,20 +245,19 @@
   <!--Featured ends-->
 
   <!--Footer-->
-  <footer class="footer_main">
-    <div class="footer_logo">
-      <img src="./assets/img/furen.svg" alt="company logo" class="responsive-logo">
-    </div>
-    <nav class="footer_navigation">
-      <ul class="footer_nav-area">
-        <li class="footer_nav-area item"><a href="">Offers</a></li>
-        <li class="footer_nav-area item"><a href="rooms.html">Rooms</a></li>
-        <li class="footer_nav-area item"><a href="index.html#dining">Dinning</a></li>
-        <li class="footer_nav-area item"><a href="index.html#conferences">Conferences</a></li>
-        <li class="footer_nav-area item"><a href="contact.html">Contact</a></li>
-      </ul>
-      <button type="submit" class="btn">book now</button>
-  </footer>
+  <footer>
+        <div class="footer">
+          <div class="footer-row">
+  	      <img class="footerImg" src="./assets/img/furen.svg" alt="FUREN"/>
+  	      <a href="facilities.html">Offers</a>
+  	      <a href="rooms.html">Rooms</a>
+  	      <a href="index.html#dining">Dining</a>
+  	      <a href="index.html#conference">Conferences</a>
+  	      <a href="contact.html">Contacts</a>
+  	      <button class="footer-button">Book Now</button>
+  	    </div>
+  	  </div>
+  	</footer>
   <!--Footer ends-->
 
   <!--Scripts-->
